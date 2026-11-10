@@ -1,0 +1,25 @@
+# Environment & secrets
+.env
+.env.local
+
+# Data & caches (automatically downloaded/cached on boot)
+data/processed/
+data/*.zip
+data/*.json
+data/recipes_raw/
+
+# Python & testing
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Local IDE / agent tooling & reference docs
+.agents/
+.claude/
+AI Intern Task (1).pdf
+ai_engineering_report.md
+extracted_assignment_pdf.txt
